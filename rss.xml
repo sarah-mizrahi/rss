@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- La parte fija del fichero xml correspondiente a un rss -->
+<rss version="2.0"> 
+  <channel> <!-- LOS CONTENIDOS QUE QUEREMOS MOSTRAR -->
+    <title>VILLANOVA</title>
+    <link>https://sarah-mizrahi.github.io/villanova/index.html</link>
+    <description>Conoce nuestros destinos</description>
+    <!-- La parte fija opcional -->
+    <language>es-ES</language>
+
+   <!--<image>
+      <title>Título de la Imagen</title>
+      <url>http://www.mipagina.com/logotipo-del-rss.png</url>
+      <link>http://www.mipagina.com</link>
+      <width>90</width>
+      <height>36</height>
+    </image>-->
+
+    <!-- La parte variable, la que corresponde a cada noticia o ítem MAX 15 ITEMS POR CHANEL -->
+    <item>
+      <title>MALLORCA</title>
+      <link>https://www.spain.info/es/region/mallorca-isla/</link>
+      <description>La esencia del mediterráneo</description>
+    </item>
+    <item>
+      <title>MENORCA</title>
+      <link>https://www.menorca.es/portal.aspx?IDIOMA=1</link>
+      <description>La isla de los pequeños placeres</description>
+    </item>
+    <item>
+      <title>IBIZA</title>
+      <link>https://ibiza.travel/</link>
+      <description>Actualidad</description>
+    </item>
+    <item>
+      <title>FORMENTERA</title>
+      <link>https://www.formentera.es/</link>
+      <description>El paraiso</description>
+    </item>
+  </channel>
+</rss>
